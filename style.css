@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: rgb(231, 231, 231);
+	font-family: 'Karla', sans-serif;
+}
+@media screen and (max-width: 707px) {
+	body {
+		
+		margin: 100px auto;
+    
+	}
+}
+.card {
+	width: 90%;
+	max-width: 650px;
+	height: 520px;
+	border-radius: 10px;
+	background: white;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.021);
+	display: block;
+}
+
+
+.top-section {
+	width: 100%;
+	background-color: rgb(248, 248, 248);
+	padding: 40px;
+	border-radius: 10px 10px 0px 0px;
+	
+}
+
+.title {
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: hsl(179, 62%, 43%);
+}
+@media screen and (max-width: 707px) {
+	.title{
+		font-size: 22px;
+    
+	}
+}
+.subtitle {
+	font-size: 17px;
+	font-weight: 700;
+	margin-bottom: 18px;
+	color: hsl(71, 73%, 54%);
+}
+@media screen and (max-width: 707px) {
+	.subtitle{
+		font-size: 15px;
+    
+	}
+}
+
+.body-copy {
+	font-size: 16px;
+	font-weight: 400;
+	color: hsl(218, 22%, 67%);
+	line-height: 1.8;
+}
+@media screen and (max-width: 707px) {
+	.body-copy{
+		font-size: 14px;
+    
+	}
+}
+.bottom-section {
+	width: 100%;
+	background-color: rgb(219, 219, 219);
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+	background-color: red;
+	height: 60%;
+}
+@media screen and (max-width: 707px) {
+	.bottom-section{
+		flex-direction: column;
+		border-radius: 0px;
+    
+	}
+}
+.subscription {
+	width: 50%;
+	background: hsl(179, 62%, 43%);
+	border-radius: 0px 0px 0px 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 50px 40px 0px ;
+	
+}
+@media screen and (max-width: 707px) {
+	.subscription {
+		border-radius: 0px;
+		width: 100%;
+		padding-bottom: 30px;
+    
+	}
+}
+.why-us {
+	width: 50%;
+	background: hsl(179, 63%, 47%);
+	border-radius: 0px 0px 10px 0px;
+	padding: 50px 40px 0;
+}
+@media screen and (max-width: 707px) {
+	.why-us  {
+		border-radius: 0px 0px 10px 10px;
+		width: 100%;
+		padding-bottom: 30px;
+
+ 
+    
+	}
+}
+.wrapper {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 8px;
+}
+
+.subsc-title {
+	color: white;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 18px;
+}
+.subsc-price {
+	color: white;
+	font-size: 32px;
+	font-weight: 700;
+}
+.per-month {
+	color: hsl(179, 74%, 82%);
+}
+.subsc-desc {
+	color: hsl(204, 43%, 93%);
+	margin-bottom: 40px;
+}
+.btn {
+	align-self: center;
+	background: hsl(71, 73%, 54%);
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 14px 0;
+	border-radius: 5px;
+	box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.why-title {
+	color: white;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 18px;
+}
+ul li {
+	list-style: none;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: hsl(204, 43%, 93%);
+}
